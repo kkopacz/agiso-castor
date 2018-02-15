@@ -1,0 +1,2 @@
+# castor
+Cellular Automata Simulator
