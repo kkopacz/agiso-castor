@@ -1,2 +1,2 @@
-# castor
+# agiso-castor
 Cellular Automata Simulator
