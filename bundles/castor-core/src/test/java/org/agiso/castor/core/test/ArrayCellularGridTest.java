@@ -61,6 +61,10 @@ public class ArrayCellularGridTest {
 		long alloc = System.nanoTime();
 		System.out.println("Allocation time: " + (alloc - start) + "ns");
 
+		// IObjectProfileNode profile = ObjectProfiler.profile(grid.getGridArray());
+		// int size = profile.size();
+		// System.out.println(size / 1024);
+
 		// Zapis przestrzeni:
 		for(int i = 0; i < x; i++) {
 			grid.setCellValue(dataS[i][0][0], i);
@@ -91,6 +95,10 @@ public class ArrayCellularGridTest {
 		ICellularGrid grid = new ArrayCellularGrid(states, x, y);
 		long alloc = System.nanoTime();
 		System.out.println("Allocation time: " + (alloc - start) + "ns");
+
+		// IObjectProfileNode profile = ObjectProfiler.profile(grid.getGridArray());
+		// int size = profile.size();
+		// System.out.println(size / 1024);
 
 		// Zapis przestrzeni:
 		for(int i = 0; i < x; i++) {
@@ -128,6 +136,10 @@ public class ArrayCellularGridTest {
 		ICellularGrid grid = new ArrayCellularGrid(states, x, y, z);
 		long alloc = System.nanoTime();
 		System.out.println("Allocation time: " + (alloc - start) + "ns");
+
+		// IObjectProfileNode profile = ObjectProfiler.profile(grid.getGridArray());
+		// int size = profile.size();
+		// System.out.println(size / 1024);
 
 		// Zapis przestrzeni:
 		for(int i = 0; i < x; i++) {
